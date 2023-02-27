@@ -1,0 +1,66 @@
+:root {
+  --heading-font-family: "Lato", sans-serif;
+  --default-font-family: "Red Hat Mono";
+  --highlight-color: #0d626b;
+
+  --default-box-shadow: ;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  font-weight: bolder;
+  padding-top: 300px;
+}
+h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+li {
+  text-align: right;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: bolder;
+  padding-right: 30px;
+}
+.nav-link {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.contact-button {
+  border-radius: 4px;
+  border-width: medium;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.contact-link:hover {
+  color: #1f1f1f;
+  background-color: white;
+  text-decoration: none;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(images/hero1.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  color: white;
+  text-align: right;
+  padding: 120px 20px;
+}
