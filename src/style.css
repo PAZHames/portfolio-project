@@ -1,8 +1,8 @@
 :root {
   --heading-font-family: "Lato", sans-serif;
   --default-font-family: "Red Hat Mono";
-  --highlight-color: #963C18;
-  --default-box-shadow: 2px 2px 2px ;
+  --highlight-color:#033B41;
+  --default-box-shadow: 2px 2px 10px ;
 }
 
 h1 {
@@ -17,8 +17,10 @@ h2 {
   font-size: 24px;
   padding-bottom: 40px;
 }
-li {
-  text-align: right;
+
+
+p {
+  font-family: var(--default-font-family);
 }
 
 .navbar {
@@ -28,7 +30,7 @@ li {
 
 .navbar-brand {
   font-family: var(--heading-font-family);
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bolder;
   padding-right: 30px;
 }
@@ -40,6 +42,7 @@ li {
 .contact-button {
   border-radius: 4px;
   border-width: medium;
+
   line-height: 27px;
   padding: 15px 30px;
   
@@ -67,12 +70,28 @@ li {
 
 .hero {
   background-image: url(images/hero1.png);
-  width: 100%;
   background-size: cover;
   background-position: center;
-  position: relative;
-
   color: white;
   text-align: right;
   padding: 120px 20px;
+}
+
+.project-image {
+  box-shadow: var(--default-box-shadow);
+  border-radius: 8px;
+}
+
+.project-title {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: var(--highlight-color);
+}
+.project-button {
+  color: var(--highlight-color);
+}
+.project-button:hover {
+  background-color: var(--highlight-color);
+  color: white;
+  border-color: var(--highlight-color);
 }
