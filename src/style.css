@@ -2,7 +2,7 @@
   --heading-font-family: "Lato", sans-serif;
   --default-font-family: "Red Hat Mono";
   --highlight-color:#033B41;
-  --default-box-shadow: 2px 2px 10px ;
+  --default-box-shadow: 1px 1px 15px ;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h2 {
 
 p {
   font-family: var(--default-font-family);
+  text-align: center;
 }
 
 .navbar {
@@ -56,6 +57,7 @@ p {
 .contact-link {
   text-decoration: none;
   font-family: var(--heading-font-family);
+  font-weight: bolder;
 }
 
 .contact-link:hover {
@@ -84,14 +86,55 @@ p {
 
 .project-title {
   font-family: var(--heading-font-family);
+  font-size: 32px;
   font-weight: bold;
   color: var(--highlight-color);
+  text-align: center;
 }
 .project-button {
   color: var(--highlight-color);
+  font-weight: bolder;
+  border-width: medium;
+  display: block;
+  margin: 0 auto;
+ 
 }
 .project-button:hover {
   background-color: var(--highlight-color);
   color: white;
   border-color: var(--highlight-color);
+}
+
+#navbarTogglerDemo02 {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+  padding: 80px 20px;
+  padding-bottom: 40px;
+  }
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+    padding-top: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .project-button {
+    display: block;
+    text-align: center;
+  }
+
+}
+@media (max-width: 1340px) {
+  h1 {
+    color: white;
+  }
 }
