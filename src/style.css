@@ -83,7 +83,7 @@ p {
   border-radius: 8px;
 }
 
-.project-title {
+.project-title, .work-h3 {
   font-family: var(--heading-font-family);
   font-size: 32px;
   font-weight: bold;
@@ -123,7 +123,9 @@ p {
   letter-spacing: 0.5px;
 }
 
-
+.work-h1 {
+  font-size: 56px;
+}
 
 
 
@@ -151,7 +153,7 @@ p {
 
 }
 @media (max-width: 1340px) {
-  h1 {
+  .h1-index {
     color: white;
   }
 }
