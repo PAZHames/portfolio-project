@@ -19,13 +19,19 @@ h2 {
   padding-bottom: 40px;
   line-height: 1.5;
 }
-
+h4 {
+  font-family: var(--default-font-family);
+  color: var(--default-text-color);
+  font-size: 18px;
+  padding: 10px;
+}
 
 p {
   font-family: var(--default-font-family);
   text-align: center;
   color: var(--default-text-color);
 }
+
 
 .navbar {
   
@@ -90,13 +96,17 @@ p {
   border-radius: 8px;
 }
 
-.project-title, .work-h3 {
+.project-title, .work-h3, .contact-h3 {
   font-family: var(--heading-font-family);
   font-size: 32px;
   font-weight: bold;
   color: var(--highlight-color);
-  text-align: center;
+  
 }
+.project-title, .work-h3 {
+text-align: center;
+}
+
 .project-button {
   color: var(--highlight-color);
   font-weight: bolder;
@@ -115,7 +125,9 @@ p {
   position: absolute;
   right: 0;
 }
-
+.about-h1 {
+  font-size: 78px;
+}
 .about-paragraph {
   font-family: var(--default-font-family);
   color: var(--default-text-color);
@@ -131,13 +143,29 @@ p {
 }
 
 .work-h1 {
-  font-size: 56px;
-  padding-left: 200px;
-  padding-right: 200px;
+  font-size: 78px;
+  
 }
  .work-h3 {
    color: var(--default-text-color);
  }
+
+.contact-content {
+  text-align: left;
+}
+
+.h4-contact-link {
+  color: var(--default-text-color);
+  text-decoration: none;
+}
+
+.h4-contact-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -163,8 +191,11 @@ p {
   }
 .work-h1 {
   font-size: 36px;
- 
 }
+.contact-content {
+  text-align: center;
+}
+
 }
 @media (max-width: 1340px) {
   .h1-index {
