@@ -11,7 +11,7 @@ h1 {
   font-size: 96px;
   font-weight: bolder;
   padding-top: 300px;
-  color: var(--highlight-color);
+  color: var(--highlight-color)
 }
 h2 {
   font-family: var(--default-font-family);
@@ -34,13 +34,14 @@ p {
 
 
 .navbar {
-  
+  background-color: rgb(3, 59, 65, 0.8);
   max-height: 500px;
   overflow-y: scroll;
+  padding-left: 20px;
 }
-.navbar-other {
-  color: var(--highlight-color);
-}
+
+
+
 
 .navbar-brand {
   font-family: var(--heading-font-family);
@@ -51,6 +52,10 @@ p {
 .nav-link {
   font-family: var(--default-font-family);
   font-size: 18px;
+}
+#navbarTogglerDemo02 {
+  position: absolute;
+  right: 20px;
 }
 
 .contact-button {
@@ -83,7 +88,7 @@ p {
 }
 
 .hero {
-  background-image: url(images/hero1.png);
+  background-image: url(images/hero-green.png);
   background-size: cover;
   background-position: center;
   color: white;
@@ -121,12 +126,10 @@ text-align: center;
   border-color: var(--highlight-color);
 }
 
-#navbarTogglerDemo02 {
-  position: absolute;
-  right: 0;
-}
-.about-h1 {
+
+.about-h1, .work-h1 {
   font-size: 78px;
+
 }
 .about-paragraph {
   font-family: var(--default-font-family);
@@ -142,10 +145,6 @@ text-align: center;
   letter-spacing: 0.5px;
 }
 
-.work-h1 {
-  font-size: 78px;
-  
-}
  .work-h3 {
    color: var(--default-text-color);
  }
