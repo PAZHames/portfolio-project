@@ -11,7 +11,8 @@ h1 {
   font-size: 96px;
   font-weight: bolder;
   padding-top: 300px;
-  color: var(--highlight-color)
+  color: var(--highlight-color);
+ 
 }
 h2 {
   font-family: var(--default-font-family);
@@ -40,9 +41,6 @@ p {
   padding-left: 20px;
 }
 
-
-
-
 .navbar-brand {
   font-family: var(--heading-font-family);
   font-size: 20px;
@@ -56,6 +54,10 @@ p {
 #navbarTogglerDemo02 {
   position: absolute;
   right: 20px;
+}
+
+.h1-index {
+  color: white;
 }
 
 .contact-button {
@@ -195,9 +197,4 @@ text-align: center;
   text-align: center;
 }
 
-}
-@media (max-width: 1340px) {
-  .h1-index {
-    color: white;
-  }
 }
