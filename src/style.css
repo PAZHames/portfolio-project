@@ -60,8 +60,16 @@ footer i {
 #navbarTogglerDemo02 {
   position: absolute;
   right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
+.nav-social {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.final-nav-social {
+  padding-right: 30px;
+}
 .h1-index {
   color: white;
 }
@@ -116,10 +124,9 @@ footer i {
 
 .project-image {
   box-shadow: var(--default-box-shadow);
+  vertical-align: center;
 }
-.project-row-1 {
-  padding-top: 70px;
-}
+
 .project-title,
 .work-h3,
 .contact-h3 {
@@ -131,6 +138,18 @@ footer i {
 .project-title,
 .work-h3 {
   text-align: center;
+}
+.project-tools-h3 {
+  font-family: var(--heading-font-family);
+  color: var(--highlight-color);
+  text-align: left;
+}
+.tool-logo {
+  max-width: 100%;
+}
+.tool-text {
+  text-align: center;
+  font-family: var(--default-font-family);
 }
 
 .project-button {
@@ -144,6 +163,20 @@ footer i {
   background-color: var(--highlight-color);
   color: white;
   border-color: var(--highlight-color);
+  transition: var(--default-transition);
+}
+.source-code-button {
+  color: white;
+  background-color: var(--highlight-color);
+  display: block;
+  margin: 0 auto;
+}
+.source-code-button:hover {
+  background-color: white;
+  color: var(--highlight-color);
+  font-weight: bolder;
+  border-color: var(--highlight-color);
+  border-width: medium;
   transition: var(--default-transition);
 }
 
