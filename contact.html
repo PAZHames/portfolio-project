@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
+    <meta
+      name="description"
+      content="Contact Phoebe Hames, front-end developer, based in London."
+    />
+    <title>Contact | Phoebe Hames</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,7 +36,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Phoebe Hames</a>
+          <a class="navbar-brand" href="/" title="Homepage">Phoebe Hames</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -51,6 +55,7 @@
                   href="mailto:phoebehames292@gmail.com"
                   target="_blank"
                   class="nav-link"
+                  title="Email"
                   ><i class="fa-regular fa-envelope nav-social"></i
                 ></a>
               </li>
@@ -60,6 +65,7 @@
                   href="https://www.linkedin.com/in/phoebe-hames/"
                   target="_blank"
                   class="nav-link"
+                  title="LinkedIn"
                   ><i class="fa-brands fa-linkedin-in nav-social"></i
                 ></a>
               </li>
@@ -68,22 +74,38 @@
                   href="https://www.instagram.com/pazeta/?hl=en"
                   target="_blank"
                   class="nav-link"
+                  title="Instagram"
                   ><i
                     class="fa-brands fa-instagram nav-social final-nav-social"
                   ></i
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" href="/about.html" title="About Phoebe"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/work.html">Work</a>
+                <a class="nav-link" href="/work.html" title="Phoebe's Work"
+                  >Work</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/contact.html">Contact</a>
+                <a
+                  class="nav-link active"
+                  href="/contact.html"
+                  title="Contact Phoebe"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -135,7 +157,7 @@
               Work Enquiries &nbsp &nbsp
               <img
                 src="src/images/work-together.svg"
-                alt=""
+                alt="collaboration graphic"
                 height="100px"
                 class="img-fluid work-together-image"
               />
@@ -143,7 +165,12 @@
             <p class="d-flex justify-content-start">Let's work together!</p>
           </div>
           <div class="contact-box-btn">
-            <a href="/contact.html" class="btn contact-btn">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn contact-btn"
+              title="Contact Phoebe"
+              >Contact me</a
+            >
           </div>
         </div>
       </div>
@@ -151,27 +178,40 @@
         <a
           href="mailto:phoebehames292@gmail.com"
           class="d-flex justify-content-center pt-5 pb-3 footer-email"
+          title="phoebehames292@gmail.com"
           >phoebehames292@gmail.com</a
         >
-        <div class="pb-5 social-links">
+        <div class="social-links">
           <a
             href="https://www.instagram.com/pazeta/"
             class="h4-contact-link"
             target="_blank"
+            title="Instagram"
             ><i class="fa-brands fa-square-instagram"></i
           ></a>
           <a
             href="https://github.com/PAZHames"
             class="h4-contact-link"
             target="_blank"
+            title="Github"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/phoebe-hames/"
             class="h4-contact-link"
             target="_blank"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
+        </div>
+        <div class="text-center code-footer">
+          Coded by Phoebe Hames &nbsp; | &nbsp;
+          <a
+            href="https://github.com/PAZHames/portfolio-project.git"
+            class="portfolio-code"
+            title="Open-source portfolio code"
+            >Open-source code</a
+          >
         </div>
       </footer>
     </div>

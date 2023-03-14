@@ -296,6 +296,19 @@ footer .social-links i:hover {
   transition: var(--default-transition);
   cursor: pointer;
 }
+.code-footer {
+  color: var(--default-text-color);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.portfolio-code {
+  color: var(--default-text-color);
+  text-decoration: none;
+}
+.portfolio-code:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 1200px) {
   .project-button,
@@ -359,6 +372,9 @@ footer .social-links i:hover {
   }
   .contact-h3 {
     font-size: 24px;
+  }
+  .code-footer {
+    font-size: small;
   }
 }
 
