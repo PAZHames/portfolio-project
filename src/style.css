@@ -58,12 +58,7 @@ footer i {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
-#navbarTogglerDemo02 {
-  position: absolute;
-  right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 .nav-social {
   padding-left: 10px;
   padding-right: 10px;
@@ -321,6 +316,14 @@ footer .social-links i:hover {
 @media (max-width: 1000px) {
   .contact-box-container {
     display: none;
+  }
+}
+@media (min-width: 992px) {
+  #navbarTogglerDemo02 {
+    position: absolute;
+    right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
